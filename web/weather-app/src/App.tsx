@@ -7,11 +7,11 @@ import PrimarySearchAppBar from "./components/nav";
 function App() {
   return (
     <div className="App">
-        <Grid container lg={12} rowGap={4}>
+        <Grid container lg={12} rowGap={2}>
           <Grid container>
             <PrimarySearchAppBar/>
           </Grid>
-          <Grid container justifyContent="space-around" sx={{bgcolor: 'aqua', minHeight: '90vh', borderRadius: '15px' }}>
+          <Grid container justifyContent="space-around" sx={{bgcolor: 'aqua', minHeight: '92vh', borderRadius: '15px 15px 0px 0px' }}>
 
           </Grid>
         </Grid>
