@@ -1,39 +1,6 @@
 .App {
+  width: 98vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-container {
-  height: 15vh;
-}
-
-.main-container {
-  border-radius: 15px;
-  margin: 0, 15px, 0, 15px;
-  display: flex;
-  height: 85vh;
-  align-items: center;
-  justify-content: center;
-  background-color: aqua;
-}
-
-/* .main-item {
-  background-color: blueviolet;
-} */
-
-/* .main-item.first-row {
-  height: 25%;
-} */
-
-/* .main-item.second-row {
-  height: 75%;
-} */
